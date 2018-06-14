@@ -1,6 +1,6 @@
-﻿using FriendApp.Helpers;
-using FriendApp.Model;
-using FriendApp.View;
+﻿using AppAmigos.Helpers;
+using AppAmigos.Model;
+using AppAmigos.View;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace FriendApp.ViewModel
+namespace AppAmigos.ViewModel
 {
     public class MainPageViewModel : NotificableFriend
     {

@@ -1,12 +1,11 @@
-﻿using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using FriendApp.ViewModel;
-using System.Threading.Tasks;
-
-namespace FriendApp.Data
+﻿namespace AppAmigos.Data
 {
+    using SQLite;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+    using AppAmigos.ViewModel;
+    using System.Threading.Tasks;
     public class FriendDataBase
     {
         private readonly SQLiteAsyncConnection database;

@@ -1,15 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
-
-namespace AppAmigos
+﻿namespace AppAmigos
 {
-	public partial class App : Application
+    using AppAmigos.Data;
+    using AppAmigos.Services;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
+    using Xamarin.Forms;
+    public partial class App : Application
 	{
-		public App ()
+        private static FriendDatabase database;
+
+        public static FriendDatabase Database
+        {
+            get
+            {
+                if(database==null)
+                {
+                    database = new FriendDataBase(DependencyService.Get<IFileHelper>().GetLocalFilePath("friendsdb.db3"));
+                }
+                return database;
+            }
+        }
+        
+        public App ()
 		{
 			InitializeComponent();
 

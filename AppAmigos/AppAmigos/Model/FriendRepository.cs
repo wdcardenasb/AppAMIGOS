@@ -1,13 +1,13 @@
-﻿using FriendApp.Helpers;
-using FriendApp.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FriendApp.Model
+﻿namespace AppAmigos.Model
 {
+    using AppAmigos.Helpers;
+    using AppAmigos.ViewModel;
+    using System;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public class FriendRepository
     {
         public IList<Friend> Friends { get; set; }

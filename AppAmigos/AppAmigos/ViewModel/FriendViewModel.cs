@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-using Xamarin.Forms;
-
-namespace FriendApp.ViewModel
+﻿namespace AppAmigos.ViewModel
 {
+    using System;
+    using System.Threading.Tasks;
+    using Xamarin.Forms;
+    using AppAmigos.Model;
+
     public class FriendViewModel
     {
         public Command SaveCommand { get; set; }

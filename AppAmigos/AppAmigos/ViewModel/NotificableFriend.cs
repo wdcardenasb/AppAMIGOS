@@ -1,4 +1,4 @@
-﻿namespace FriendApp.ViewModel
+﻿namespace AppAmigos.ViewModel
 {
     using System;
     using System.Collections.Generic;

@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
 
-namespace FriendApp.Services
+namespace AppAmigos.Services
 {
+    using System;
     public interface IFileHelper
     {
         string GetLocalFilePath(string fileName);

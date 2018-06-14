@@ -1,10 +1,9 @@
-﻿using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FriendApp.ViewModel
+﻿namespace AppAmigos.ViewModel
 {
+    using SQLite;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
     public class Friend : NotificableFriend
     {
         #region Atributos
